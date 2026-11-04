@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>English Quest 111–114 | Rewrite Lab</title>
+<style>
+:root{--ink:#203047;--muted:#61758b;--green:#147a54;--mint:#d9ffe9;--gold:#ffc857;--pink:#ff7eb6;--sky:#8eeaff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;overflow-x:hidden;color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Arial;background:linear-gradient(180deg,#c8f6e3 0%,#e9fff2 35%,#fff5dc 100%);background-attachment:fixed}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 10% 12%,#fff9 0 8%,transparent 35%),radial-gradient(ellipse at 90% 30%,#a8edcf88,transparent 38%),radial-gradient(ellipse at 55% 100%,#ffd88a66,transparent 40%)}
+header{padding:34px 16px 18px;text-align:center;position:relative}.eyebrow{color:#187c5a;letter-spacing:4px;font-size:12px;font-weight:950}.hero{font-size:clamp(32px,8vw,60px);line-height:1.05;margin:10px 0;color:#176c50;text-shadow:0 3px 0 #fff,0 8px 24px #3c956444}.sub{color:#456579;max-width:680px;margin:auto;font-weight:600}
+.wrap{max-width:940px;margin:auto;padding:12px 15px 65px}.toolbar,.tabs{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:15px 0}
+button,select{font:inherit;color:#214337;background:#fff;border:1px solid #a8d9c1;border-radius:16px;padding:12px 16px;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;transition:background .16s,border-color .16s,box-shadow .16s,transform .16s}
+button:hover{box-shadow:0 8px 18px #237a5030;border-color:#329b70}button:active{transform:scale(.97)}button.primary{background:linear-gradient(110deg,#15885d,#4dbb83);color:white;border:0;font-weight:850;box-shadow:0 6px 16px #147a5433}button.active{background:#176f50;color:white;border-color:#176f50}
+.card{background:#ffffffdf;border:1px solid #c3ead3;border-radius:25px;padding:20px;margin:17px 0;box-shadow:0 12px 32px #397c5b18;backdrop-filter:blur(8px)}
+h2{margin:0 0 12px;font-size:23px;color:#176c50}h3{margin:8px 0}.muted{color:var(--muted)}.pill{display:inline-block;padding:4px 11px;border-radius:99px;background:#d8f8e6;color:#16734e;font-size:12px;font-weight:900}
+.tabs button{min-width:65px}.q{padding:16px 0;border-bottom:1px solid #dcefe3}.q:last-child{border:0}.qtitle{font-weight:800;margin-bottom:11px;color:#243b4d}.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.opt{text-align:left;background:#f5fff8;border:1px solid #c8e8d4;color:#254638;width:100%;min-height:48px}.opt.chosen{background:#d9fff0;border:2px solid #149565;box-shadow:0 0 0 4px #28bd7b22;animation:pop .24s ease}.opt.correct{background:#d8ffdf;border:2px solid #269b57}.opt.wrong{background:#ffe0e7;border:2px solid #dc5473;animation:shake .28s ease}
+@keyframes pop{50%{transform:scale(1.025)}}@keyframes shake{25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+.result{font-weight:850;color:#15794f}.bar{height:10px;background:#e0eee5;border-radius:9px;overflow:hidden;margin:12px 0}.bar>i{display:block;height:100%;width:0;background:linear-gradient(90deg,#32bb81,#ffbf55);transition:width .25s}
+input.answer{width:100%;padding:13px;border-radius:13px;background:#f7fff9;border:1px solid #b8ddc6;color:#203b31;font-size:15px;margin:8px 0;outline-color:#25a56e}.small{font-size:13px;color:#617b70}.meme{font-size:20px;font-weight:900;text-align:center;min-height:80px;display:grid;place-items:center;background:linear-gradient(135deg,#e1fff0,#fff1c8);border:1px solid #bde7ce;border-radius:18px;padding:18px;color:#235c46}.meme em{color:#d45b83;font-style:normal}
+.music{display:grid;grid-template-columns:1fr;gap:10px}.music iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:18px;background:#111}.leaf{position:fixed;top:-12vh;z-index:0;pointer-events:none;font-size:clamp(22px,4vw,42px);opacity:.7;animation:leafFall linear infinite;filter:drop-shadow(0 5px 5px #377b4930)}.leaf.l1{left:5%;animation-duration:17s;animation-delay:-4s}.leaf.l2{left:25%;animation-duration:22s;animation-delay:-12s}.leaf.l3{left:68%;animation-duration:19s;animation-delay:-8s}.leaf.l4{left:88%;animation-duration:24s;animation-delay:-17s}.leaf.l5{left:48%;animation-duration:26s;animation-delay:-20s}
+@keyframes leafFall{0%{transform:translate3d(0,-10vh,0) rotate(0)}25%{transform:translate3d(45px,25vh,0) rotate(100deg)}50%{transform:translate3d(-30px,50vh,0) rotate(220deg)}75%{transform:translate3d(55px,75vh,0) rotate(310deg)}100%{transform:translate3d(-20px,115vh,0) rotate(480deg)}}
+footer{text-align:center;color:#6c897a;padding:20px;font-size:12px}.wrap,header{position:relative;z-index:1}
+@media(max-width:600px){.opts{grid-template-columns:1fr}.card{padding:16px}.toolbar button{flex:1}.qtitle{font-size:16px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+</style></head><body>
+<div class="leaf l1">🍃</div><div class="leaf l2">🌿</div><div class="leaf l3">🍃</div><div class="leaf l4">🌱</div><div class="leaf l5">🍃</div>
+<header><div class="eyebrow">LEVEL UP YOUR ENGLISH</div><div class="hero">ENGLISH QUEST ✦</div><p class="sub">Ôn trọn bộ Test 111–114 và Rewrite. Chọn đáp án, chấm điểm, luyện viết lại câu — chiến thôi!</p></header>
+<div class="wrap">
+<div class="toolbar">
+<button onclick="document.getElementById('musicPlayer').scrollIntoView({behavior:'smooth'})" class="primary">♫ Love Story</button>
+<button id="memeBtn">🎭 Meme tiếp theo</button><button id="reset">↻ Làm lại bài</button>
+</div>
+<div class="card music" id="musicPlayer"><div><span class="pill">NOW PLAYING</span><h2>🎵 Taylor Swift — Love Story</h2><p class="muted">Phát video chính thức từ kênh Taylor Swift. Bạn có thể chỉnh âm lượng trực tiếp trong trình phát.</p></div><iframe src="https://www.youtube-nocookie.com/embed/8xg3vE8Ie_E?rel=0" title="Taylor Swift - Love Story official music video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><a href="https://www.youtube.com/watch?v=8xg3vE8Ie_E" target="_blank" rel="noopener" style="color:#16734e;font-weight:800">Mở Love Story trên YouTube ↗</a></div>
+<div class="card"><div class="meme" id="meme">Khi thấy câu hỏi số 20: <em>“Ủa, mình học tới đâu rồi?”</em></div><p class="small" style="text-align:center">Meme chữ do trang tự tạo, mỗi lần bấm là một câu khác.</p></div>
+<div class="tabs" id="tabs"></div>
+<div class="card">
+<div style="display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap"><div><span class="pill" id="sectionTag">TEST 111</span><h2 id="sectionTitle">Multiple choice</h2></div><div class="result" id="score">0 / 20 đúng</div></div>
+<div class="bar"><i id="progress"></i></div><div id="quiz"></div>
+<div class="toolbar"><button class="primary" id="grade">✓ Chấm bài</button><button id="showAnswers">Hiện đáp án</button></div><p id="feedback" class="result"></p>
+</div>
+<div class="card"><span class="pill">REWRITE LAB</span><h2>Viết lại câu ✍️</h2><p class="muted">Nhập câu viết lại. Có thể bấm “Gợi ý đáp án” để xem mẫu; bài được kiểm tra theo cụm từ chính, vì có thể tồn tại nhiều cách viết đúng.</p>
+<div id="rewrite"></div><div class="toolbar"><button class="primary" id="checkRewrite">Kiểm tra phần Rewrite</button><button id="revealRewrite">Gợi ý đáp án</button></div><p id="rewriteFeedback" class="result"></p></div>
+<footer>Made for your English grind ✦ Không cần mạng để làm bài. Âm thanh chỉ phát sau khi bạn bấm bật.</footer>
+</div>
+<script>
+const tests = [
+{title:"TEST 111",q:[
+["Regular exercise helps people maintain a healthy ______ and reduces the risk of many diseases.",["lifestyle","generation","argument","pressure"],0],
+["A healthy diet should include enough vitamins and minerals to help the body function ______.",["properly","separately","suddenly","carelessly"],0],
+["Parents should listen to their children's opinions instead of forcing them to follow every ______.",["nutrient","rule","symptom","lifestyle disease"],1],
+["Open communication can help family members understand and respect each other's ______.",["differences","calories","illnesses","exercises"],0],
+["To live a longer and healthier life, you should ______ smoking and exercise regularly.",["give up","look after","find out","get into"],0],
+["Parents should teach their children how to ______ their health by eating well and exercising regularly.",["find out","look after","get rid","come back"],1],
+["Both parents and teenagers need to ______ changes in society and understand each other's needs.",["give up","find out","adapt to","take away"],2],
+["Teenagers can become more independent when their parents show ______ their abilities and decisions.",["respect for","interest in","a complaint about","a discussion with"],0],
+["Drinking enough water helps the body function properly and prevents ______.",["dehydration","generation","communication","independence"],0],
+["People who want to live longer should develop healthy ______, such as eating well and sleeping enough.",["habits","gaps","arguments","generations"],0],
+["Parents and teenagers should have open ______ to understand each other's feelings and opinions.",["communication","argument","generation","decision"],0],
+["Parents should show ______ for their children's personal choices, even when they disagree with them.",["respect","pressure","conflict","attention"],0],
+["Smoking is extremely ______ because it can cause serious health problems.",["danger","dangerously","dangerous","endanger"],2],
+["A balanced diet provides the body with the nutrients it needs for normal ______.",["grow","growth","growing","grown"],1],
+["Good ______ between parents and teenagers can help reduce misunderstandings.",["communicate","communicative","communication","communicatively"],2],
+["Parents should listen ______ to their children's opinions and concerns.",["careful","carefully","care","careless"],1],
+["We ______ Doris last Sunday.",["don't see","haven't seen","didn't see","hadn't seen"],2],
+["Robert is going to be famous someday. He ______ in three movies already.",["was appearing","had appeared","has appeared","appeared"],2],
+["All students ______ wear uniforms at school because it is a rule.",["should","have to","ought to","must"],1],
+["You ______ finish your homework before you go to bed.",["must","have to","should","ought to"],0]
+]},
+{title:"TEST 112",q:[
+["Eating fresh fruit and vegetables is an important part of a ______ diet.",["harmful","balanced","stressful","traditional"],1],
+["Too much stress can have a negative effect on our ______ health.",["elderly","mental","private","personal"],1],
+["Teenagers often want more ______ from their parents as they grow older.",["independence","permission","exercise","nutrition"],0],
+["Although they disagree about social media, the father and his son try to find a solution to their ______.",["balance","conflict","benefit","routine"],1],
+["Doctors are trying to ______ why some people develop serious health problems at an early age.",["give up","cut down on","find out","get into"],2],
+["If you want to reduce your sugar intake, you should ______ sugary drinks and sweets.",["rely on","cut down on","get on with","come into"],1],
+["Many teenagers are ______ modern technology, while their grandparents may prefer traditional ways of communicating.",["interested in","confident in","responsible for","different from"],0],
+["Young people should not always ______ their parents to solve every problem; they should learn to be independent.",["complain about","rely on","adapt to","come into"],1],
+["Eating too much fast food may have a negative ______ on your health.",["effect","result","cause","reason"],0],
+["To stay healthy, you should ______ regular exercise instead of spending all day sitting in front of a screen.",["do","make","take","get"],0],
+["Teenagers often want to gain more ______ from their parents as they grow older.",["independent","independence","independently","depend"],1],
+["Parents and children should try to ______ a compromise when they have different opinions.",["do","make","take","get"],1],
+["Getting enough sleep is ______ for both physical and mental health.",["importance","important","importantly","import"],1],
+["Many people are becoming more ______ of the benefits of healthy eating.",["awareness","aware","unawarely","awaring"],1],
+["Teenagers often want more ______ as they grow older.",["independent","independently","independence","depend"],2],
+["Parents should be ______ when discussing sensitive issues with their children.",["patience","patiently","impatiently","patient"],3],
+["In 1996, my brother ______ at Harvard university.",["studies","is studying","studied","had"],2],
+["It is the first time I ______ snow.",["ever saw","ever see","have ever seen","had ever seen"],2],
+["I will lend you some money, but you ______ pay it back to me next week.",["should","have to","must","mustn't"],2],
+["Hoa ______ feed the cats because her mother has done it already.",["has to","doesn't have to","must","Both A and C"],1]
+]},
+{title:"TEST 113",q:[
+["People should get enough sleep every night to improve their physical and mental ______.",["permission","conflict","well-being","behaviour"],2],
+["Doing regular physical activity can help prevent some health problems and increase life ______.",["argument","expectancy","generation","relationship"],1],
+["The generation gap refers to differences in opinions and behaviour between younger and older ______.",["ingredients","generations","symptoms","nutrients"],1],
+["Teenagers should be encouraged to express their opinions politely and show ______ for their parents.",["respect","pressure","argument","independence"],0],
+["Regular physical activity can help people ______ stress and improve their mental health.",["deal with","complain about","come back","take away"],0],
+["To maintain a healthy lifestyle, we should ______ unhealthy habits and replace them with good ones.",["get rid of","look forward to","get on with","take after"],0],
+["Parents and teenagers may have different opinions, but they should listen to each other ______.",["for a long time","at the same time","according to","into the future"],1],
+["A typical nuclear family usually ______ two parents and their children.",["deals with","consists of","comes back","gets rid of"],1],
+["Getting enough sleep is important for maintaining good ______ health.",["mental","physical","social","All of the above"],3],
+["Doctors advise people to do regular exercise to reduce the risk of ______ diseases.",["chronic","delicious","convenient","traditional"],0],
+["Spending quality time together can help family members ______ strong relationships.",["build","make","do","take"],0],
+["Strict rules and a lack of understanding can sometimes lead to family ______.",["conflict","health","balance","habit"],0],
+["People should exercise ______ to improve their physical health.",["regular","regularity","regularly","regulate"],2],
+["A healthy lifestyle can help prevent many common ______.",["ill","illness","illnesses","illing"],2],
+["Family members should treat one another with kindness and ______.",["respectful","respect","respectfully","disrespectful"],1],
+["Differences in opinions may lead to family ______ if members do not communicate well.",["conflict","conflicting","conflicted","conflictive"],0],
+["Last month my brother ______ me his photos.",["sent","sends","send","is sending"],0],
+["They ______ to the cinema tonight several times.",["has gone","have gone","go","went"],1],
+["In case you've suffered from the injury, you ______ see the doctor today.",["had better","must","ought","have better"],0],
+["Water park is free for kids under 6 years old, so you ______ pay money for your son.",["have to","mustn't","should","don't have to"],3]
+]},
+{title:"TEST 114",q:[
+["Walking for thirty minutes a day can help people stay ______ and energetic.",["active","dependent","narrow-minded","impatient"],0],
+["Doctors advise people to avoid smoking because it is ______ to their health.",["beneficial","nutritious","harmful","reliable"],2],
+["Parents and teenagers sometimes have conflicts because they have different ______ about fashion and lifestyle.",["viewpoints","exercises","routines","habits"],0],
+["My father is a ______ person who is always willing to listen to, think about and accept new ideas.",["creative","close-minded","conservative","open-minded"],3],
+["Many older people need someone to ______ them when they are ill or unable to do daily tasks.",["find out","look after","give up","come into"],1],
+["You should not ______ fast food to meet all your nutritional needs because it may contain too much fat and salt.",["rely on","look after","get rid of","come back"],0],
+["Teenagers should learn to ______ their parents instead of arguing whenever they have different opinions.",["get on with","get rid of","cut down on","find out"],0],
+["It is important for parents to ______ their children about school, friends, and future plans.",["discuss","discuss with","discuss about","discuss to"],1],
+["To maintain good health, people should have a ______ diet containing plenty of fruit and vegetables.",["balanced","powerful","heavy","serious"],0],
+["Doing exercise regularly can help teenagers ______ a healthy lifestyle.",["make","lead","take","build up"],1],
+["Parents should give their children useful ______ instead of making every decision for them.",["advice","advices","advise","advising"],0],
+["Good communication can help parents and teenagers ______ their differences peacefully.",["resolve","create","increase","encourage"],0],
+["Regular exercise and a balanced diet are important for the ______ of a long and healthy life.",["achieve","achievement","achievable","achieving"],1],
+["Eating too much fast food can be ______ to your health.",["harm","harmful","harmless","harmfully"],1],
+["Some teenagers find it difficult to express their feelings ______ to their parents.",["open","openness","openly","opening"],2],
+["Parents should encourage their children's ______ instead of making every decision for them.",["responsible","responsibility","responsibly","respond"],1],
+["Their friends ______ our school yesterday.",["visit","visits","visited","have visited"],2],
+["I ______ lots about the job so far.",["have learnt","am learning","had learnt","learnt"],0],
+["In case you've suffered from the injury, you ______ see the doctor today.",["had better","must","ought","have better"],0],
+["Water park is free for kids under 6 years old, so you ______ pay money for your son.",["have to","mustn't","should","don't have to"],3]
+]}
+];
+const rewrites=[
+["She began to write 30 minutes ago.","She has been writing for 30 minutes.","has been writing"],
+["They started studying English when they were in grade 3.","They have been studying English since they were in grade 3.","have been studying"],
+["She started to cry two hours ago.","She has been crying for two hours.","has been crying"],
+["We started to chat on the phone when it began to rain.","We have been chatting on the phone since it began to rain.","have been chatting"],
+["She started doing the housework as soon as she got home.","She has been doing the housework since she got home.","has been doing"],
+["He started his career as a teacher 20 years ago.","He has been working as a teacher for 20 years.","has been working"],
+["We began to talk two hours ago.","We have been talking for two hours.","have been talking"],
+["My father started to work as an engineer when he was 22.","My father has been working as an engineer since he was 22.","has been working"],
+["Mary began to study Vietnamese two years ago.","Mary has been studying Vietnamese for two years.","has been studying"],
+["It started to rain at 2 o'clock.","It has been raining since 2 o'clock.","has been raining"],
+["We started cooking for the party 4 hours ago.","We have been cooking for the party for 4 hours.","have been cooking"],
+["Tom began playing the piano four years ago.","Tom has been playing the piano for four years.","has been playing"],
+["My father is reading a newspaper. He started it two hours ago.","My father has been reading a newspaper for two hours.","has been reading"],
+["It is forbidden for students to cheat in the exam. Students ______.","Students mustn't cheat in the exam.","mustn't cheat"],
+["You are not allowed to remove the oldest volumes from the library. (must)","You mustn't remove the oldest volumes from the library.","mustn't remove"],
+["It's necessary for you to visit your grandparents at least once a week. (must)","You must visit your grandparents at least once a week.","must visit"],
+["You are not allowed to keep the books from the library longer than a month. (must)","You mustn't keep the books from the library longer than a month.","mustn't keep"],
+["It would be a great idea for you to help around with the housework and other home duties. (must)","You must help around with the housework and other home duties.","must help"],
+["I am not allowed to wear jeans or color my hair.","I mustn't wear jeans or color my hair.","mustn't wear"],
+["It's necessary for you to go home right after you finish your work.","You must go home right after you finish your work.","must go"],
+["It is important for all family members to discuss the rules. (must)","All family members must discuss the rules.","must discuss"],
+["I'd advise you to tell the truth to your family. (should)","You should tell the truth to your family.","should tell"],
+["People are not allowed to smoke in here. (must)","People mustn't smoke in here.","mustn't smoke"],
+["My parents never refuse to allow me to take part in social activities at school and at the community. (allowed)","My parents allow me to take part in social activities at school and at the community.","allow me"],
+["It is not necessary for me to agree with everything my parents say. (have to)","I don't have to agree with everything my parents say.","don't have to agree"]
+];
+let current=0, answers={}, graded=false, rewriteShown=false;
+const $=id=>document.getElementById(id);
+function renderTabs(){ $('tabs').innerHTML=tests.map((t,i)=>`<button class="${i===current?'active':''}" onclick="switchTest(${i})">${111+i}</button>`).join('')+`<button class="${current===4?'active':''}" onclick="switchTest(4)">Rewrite</button>`}
+function switchTest(i){current=i;graded=false;renderTabs();if(i===4){$('sectionTag').textContent='REWRITE LAB';$('sectionTitle').textContent='Rewrite practice';$('score').textContent='25 câu';$('quiz').innerHTML='<p class="muted">Phần viết lại nằm ngay bên dưới. Cuộn xuống để làm nhé!</p>';$('grade').style.display='none';$('showAnswers').style.display='none';$('progress').style.width='0';}else{$('grade').style.display='';$('showAnswers').style.display='';$('sectionTag').textContent=tests[i].title;$('sectionTitle').textContent='Multiple choice';$('quiz').innerHTML=tests[i].q.map((q,n)=>`<div class="q"><div class="qtitle">${n+1}. ${q[0]}</div><div class="opts">${q[1].map((o,j)=>`<button class="opt" id="o${n}_${j}" onclick="choose(${n},${j})">${'ABCD'[j]}. ${o}</button>`).join('')}</div><div class="small" id="note${n}"></div></div>`).join('');$('feedback').textContent='';updateScore();}}
+function choose(n,j){answers[current+'_'+n]=j;for(let k=0;k<4;k++)$('o'+n+'_'+k).classList.toggle('chosen',k===j);$('feedback').textContent='Đã chọn '+ 'ABCD'[j]+' ✓';updateScore()}
+function updateScore(){let count=tests[current].q.filter((q,n)=>answers[current+'_'+n]===q[2]).length;$('score').textContent=count+' / 20 đúng';let done=tests[current].q.filter((q,n)=>answers[current+'_'+n]!==undefined).length;$('progress').style.width=(done/20*100)+'%'}
+function grade(){let score=0;tests[current].q.forEach((q,n)=>{let a=answers[current+'_'+n];if(a===q[2])score++;for(let j=0;j<4;j++){let b=$('o'+n+'_'+j);b.classList.remove('correct','wrong');if(j===q[2])b.classList.add('correct');else if(j===a)b.classList.add('wrong')}$('note'+n).textContent='Đáp án: '+ 'ABCD'[q[2]]+'. '+q[1][q[2]]});graded=true;$('feedback').textContent=`Kết quả: ${score}/20 — ${score>=18?'Đỉnh quá! 🌟':score>=14?'Ổn áp, cố thêm chút! 💪':'Sai là cơ hội lên level, làm lại nhé! 🚀'}`;updateScore()}
+function reveal(){tests[current].q.forEach((q,n)=>{answers[current+'_'+n]=q[2];choose(n,q[2])});grade()}
+$('grade').onclick=grade;$('showAnswers').onclick=reveal;
+function renderRewrite(){$('rewrite').innerHTML=rewrites.map((r,i)=>`<div class="q"><div class="qtitle">${i+1}. ${r[0]}</div><input class="answer" id="r${i}" placeholder="Nhập câu viết lại của bạn..."><div class="small" id="rh${i}"></div></div>`).join('')}
+function norm(s){return s.toLowerCase().replace(/[.,!?']/g,'').replace(/\s+/g,' ').trim()}
+$('checkRewrite').onclick=()=>{let score=0;rewrites.forEach((r,i)=>{let val=norm($('r'+i).value),key=norm(r[2]);let ok=val.includes(key);if(ok)score++;$('rh'+i).textContent=ok?'✓ Có cụm chính xác!':'Chưa thấy cụm chính "'+r[2]+'" — thử xem gợi ý nhé.'});$('rewriteFeedback').textContent=`Đạt ${score}/25 cụm cấu trúc chính. Đây là kiểm tra tự động cơ bản; hãy đối chiếu cả nghĩa và ngữ pháp.`};
+$('revealRewrite').onclick=()=>{rewrites.forEach((r,i)=>{$('rh'+i).textContent='Gợi ý: '+r[1]});$('rewriteFeedback').textContent='Đã hiện 25 đáp án mẫu.'};
+const memes=[
+'Khi cô nói “bài này dễ”: <em>não loading 2%...</em>',
+'Tôi trước giờ kiểm tra: <em>English is my passion.</em> Tôi sau câu 3: <em>What is passion?</em>',
+'Gặp “since” và “for”: <em>hai đứa này lại đi chung à?</em>',
+'Khi chọn A tự tin nhưng đáp án là C: <em>plot twist không ai mời.</em>',
+'Rewrite câu 13: <em>đổi thì chứ đừng đổi luôn cuộc đời.</em>',
+'Đọc đề xong thấy quen: <em>quen mặt chứ không quen kiến thức.</em>',
+'Não lúc làm trắc nghiệm: <em>50% tiếng Anh, 50% cầu may.</em>',
+'Khi thấy “mustn’t” khác “don’t have to”: <em>tình bạn rạn nứt.</em>',
+'Bạn thân hỏi đáp án: <em>tui cũng đang hỏi vũ trụ.</em>',
+'Hoàn thành bài sớm: <em>main character energy.</em>',
+'Khi nhớ đúng đáp án sau khi nộp: <em>cảm ơn, quá muộn.</em>',
+'Thấy câu dài 3 dòng: <em>thở đều, mình không bỏ cuộc.</em>'
+];let mi=-1;$('memeBtn').onclick=()=>{mi=(mi+1)%memes.length;$('meme').innerHTML=memes[mi]};
+$('reset').onclick=()=>{answers={};graded=false;switchTest(current);renderRewrite();$('rewriteFeedback').textContent=''};
+renderTabs();switchTest(0);renderRewrite();
+document.addEventListener('pointerdown',e=>{const b=e.target.closest('button.opt');if(b)b.style.filter='brightness(.96)'},{passive:true});document.addEventListener('pointerup',e=>{const b=e.target.closest('button.opt');if(b)b.style.filter=''} ,{passive:true});
+// Love Story is played through the official YouTube embed above; no copyrighted audio is bundled.
+</script></body></html>
